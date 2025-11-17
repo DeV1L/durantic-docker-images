@@ -1,4 +1,4 @@
-FROM ghcr.io/durantic/durantic-userspace-ubuntu:latest
+FROM ghcr.io/durantic/durantic-userspace-ubuntu:30dd16304aafb54fe6e90d475f23e37052de906a
 
 # Add SSH key for ubuntu user
 RUN mkdir -p /home/ubuntu/.ssh && \

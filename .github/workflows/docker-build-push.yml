@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_PREFIX: DeV1L/durantic-docker-images
+  IMAGE_PREFIX: DeV1L/durantic-docker
 
 jobs:
   build-and-push:
